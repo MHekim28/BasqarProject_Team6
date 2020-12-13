@@ -12,6 +12,8 @@ import java.util.List;
 
 public class Parent {
 
+    //MUstafa şaka yapıyor....
+
     public static WebDriver driver;
     public static WebDriverWait wait;
 
