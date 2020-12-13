@@ -17,7 +17,6 @@ public class HuseyinPage extends Parent {
 
     public HuseyinPage() {
         PageFactory.initElements(driver, this);
-        System.out.println("deneme");
     }
 
     @FindBy(xpath = "(//span[text()='Setup'])[1]")

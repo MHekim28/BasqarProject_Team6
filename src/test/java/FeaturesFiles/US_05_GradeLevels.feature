@@ -12,7 +12,7 @@ Feature: Grade Levels page functionality
   Scenario: A Grade Levels create
 
     When  Create a Grade Levels
-      | inputName      | ainsanlik2444 |
+      | inputName      | ainsanlik2 |
       | inputshortname | io2        |
       | inputOrder     | 2          |
 
