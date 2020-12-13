@@ -9,10 +9,6 @@ Feature: Notifications Page functionality
 
   Scenario: All Tests
 
-
-    Given Navigate to basqar
-    When Enter username and password and click Login button
-
     Then Navigate to Education Left page
       | Inventory                 |
       | setupButtonUnderInventory |
