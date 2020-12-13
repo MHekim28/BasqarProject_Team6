@@ -43,7 +43,7 @@ public class LoginPage extends Parent {
         sendKeysFunction(password, passwordStr);
         clickFunction(loginButton);
 
-       // clickFunction(gotItBtn);
+        clickFunction(gotItBtn);
 
 
     }
