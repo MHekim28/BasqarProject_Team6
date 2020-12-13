@@ -12,15 +12,13 @@ import java.util.List;
 
 public class Parent {
 
-    //MUstafa şaka yapıyor....
-
     public static WebDriver driver;
     public static WebDriverWait wait;
 
     public Parent() {
         driver = Driver.getDriver();
         wait = new WebDriverWait(driver, 15);
-        System.out.println("deneme");
+
     }
 
     public void clickFunction(WebElement element) {
