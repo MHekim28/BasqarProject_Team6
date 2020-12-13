@@ -19,7 +19,8 @@ public class Parent {
 
     public Parent() {
         driver = Driver.getDriver();
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 15);
+        System.out.println("deneme");
     }
 
     public void clickFunction(WebElement element) {
