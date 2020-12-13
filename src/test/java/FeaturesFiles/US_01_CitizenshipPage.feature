@@ -13,7 +13,7 @@ Feature: Citizenship page functionality
       |citizenships|
 
     When  Create a Citizenship
-      | inputName      | insanlik |
+      | inputName      | insanlik1 |
       | inputshortname | ins      |
 
 
@@ -23,7 +23,7 @@ Feature: Citizenship page functionality
 
     And Edit the same Citizenship
 
-      | inputSearchName    | insanlik    |
+      | inputSearchName    | insanlik1    |
       | inputSearchShrtNam | ins         |
       | inputName          | Muslumanlik |
       | inputshortname     | Muslim      |
