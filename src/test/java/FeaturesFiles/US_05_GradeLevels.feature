@@ -12,7 +12,7 @@ Feature: Grade Levels page functionality
   Scenario: A Grade Levels create
 
     When  Create a Grade Levels
-      | inputName      | ainsanlik4 |
+      | inputName      | ainsanlik2 |
       | inputshortname | io2        |
       | inputOrder     | 2          |
 
@@ -25,9 +25,9 @@ Feature: Grade Levels page functionality
       | ainsanlik2 |
 
     And Change Data
-      | inputName          | ainsanlik3 |
-      | inputshortname     | io3      |
-      | inputOrder         | 3        |
+      | inputName      | ainsanlik3 |
+      | inputshortname | io3        |
+      | inputOrder     | 3          |
 
     And Check control whether succesfully message displayed
 
@@ -35,6 +35,6 @@ Feature: Grade Levels page functionality
   Scenario: A Grade Levels delete
 
     When Delete the edited Grade Levels
-      | ainsanlik3    |
+      | ainsanlik3 |
 
     And Check control whether succesfully message displayed

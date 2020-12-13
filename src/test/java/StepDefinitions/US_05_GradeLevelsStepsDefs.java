@@ -19,7 +19,6 @@ public class US_05_GradeLevelsStepsDefs {
         for (int i = 0; i <clickElements.size() ; i++) {
             gradeLevels.findElementAndClickFunction(clickElements.get(i));
         }
-        System.out.println("deneme");
 
     }
 
